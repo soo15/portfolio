@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="KR" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel='stylesheet' href='https://www.w3schools.com/lib/w3.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="../path/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <!-- han -->
+  <div class="w3-top">
+    <ul class="w3-navbar" id="myNavbar">
+      <li><a href="#" class="w3-padding-large">Han-SoYun</a></li>
+      <li class="w3-hide-small w3-right">
+        <a href="#contact" class="w3-padding-large">Contact</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#about" class="w3-padding-large">About</a>
+      </li>
+    </ul>
+  </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-opacity w3-display-container">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <div class="content">
+            <div class="content__container">
+                <p class="content__container__text">
+                  Hello
+                </p>
+                <ul class="content__container__list">
+                  <li class="content__container__list__item">World !</li>
+                  <li class="content__container__list__item">Designer !</li>
+                  <li class="content__container__list__item">Developer !</li>
+                  <li class="content__container__list__item">Everybody !</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h2 class="w3-center">ABOUT ME</h2>
+      <p class="w3-center"><em>designer & Front-end-developer</em></p>
+      <p>[기회는 일어나는 것이 아니라 만들어내는 것이다.]</p>
+      <p>전문가란 말은 그리 쉽게 얻어지는 것이 아님을 알고 있습니다. 자신의 분야에서 최고가 될 때 비로소 전문가라는 명예로운 칭호를 들을 수 있지 않겠습니까. 저는 제가 선택한 이 분야에서 최고의 전문가가 되고 싶고, 그러한 준비를 성실하게 이행하여 왔습니다. 맡겨만 주신다면 최선을 다하여 열심히 하겠습니다.</p>
+      <!--  Profile Picture and Description  -->
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-section">
+          <img src="images/me.jpg " id="profile" class="w3-circle" alt="Photo of Me">
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-section">
+          <p>웹디자이너의 경험과 지금의 개발구축 경험을 바탕으로 WEB DESIGN & FRONT-END-DEVELOPER에서 역량을 발휘하고 싶습니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container" id="portfolio">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-light-grey w3-wide">PORTFOLIO</span>
+      </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+      <h2 class="w3-center">MY WORK</h2>
+      <p class="w3-center"><em>Here are some of my latest lorem work.<br> Click on the images to make them bigger</em></p><br>
+
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="images/ipad.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="ipad">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="images/iphoneX.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="iphoneX">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="images/iphone7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="iphone7">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="images/wetax.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity" alt="wetax">
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="images/wetax-mobile.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"  alt="wetax-mobile">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="images/bita.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"  alt="비타500">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="images/homapage.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="homepage">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="images/educar-mobile.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="educar">
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" style="max-width:100%" alt="hidden">
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container" id="contact">
+      <div class="w3-display-middle">
+        <h2 class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</h2>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+      <h3 class="w3-center">Keep in touch</h3>
+      <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+      <address class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <!-- Add Google Maps -->
+          <!-- <div id="googleMap" class="w3-round-large"></div> -->
+          <div>
+            <img src="images/map.png" style="width:100%; border-radius:10px; border:1px solid lightgray" alt="map">
+          </div>
+        </div>
+        <div class="w3-col m8 w3-container w3-section">
+          <div class="w3-large w3-margin-bottom">
+            <!-- <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> Kabankalan City, NIR, Philippines<br> -->
+            <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: 010-9968-2337<br>
+            <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: soomom83@gmail.com<br>
+          </div>
+          <p>문의사항 있으시면 연락주세요!</p>
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
+          <a href="mailto:soomom83@gmail.com" class="w3-btn w3-section w3-right">SEND</a>
+        </div>
+      </address>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black cf">
+      <!-- <div class="w3-half">
+        <a target="_blank" href="https://www.freecodecamp.com">
+          <i class="fa fa-fire fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com">
+          <i class="fa fa-facebook fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://codepen.io">
+          <i class="fa fa-codepen fa-2x"></i>
+        </a>
+      </div> -->
+      <p class="w3-half">Made with <span class="heart-icon">❤</span> by Han and Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p>
+    </footer>
+    <!-- <script src='https://maps.googleapis.com/maps/api/js'></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script>
+    <script  src="js/index.js"></script>
+
+</body>
+
+</html>
